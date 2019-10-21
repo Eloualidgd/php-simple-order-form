@@ -79,13 +79,13 @@
             <?php endforeach; ?>
         </fieldset>
 
-        <form class="form-inline">
-            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Choose</label>
-            <select class="custom-select my-2 mr-sm-2" id="inlineFormCustomSelectPref">
-                <option value="1">Normal Order 2 h aprx</option>
-                <option value="2">Express Order 45 min aprx</option>
-            </select>
-        </form>
+<!--        <form class="form-inline">-->
+<!--            <label class="my-1 mr-2" for="inlineFormCustomSelectPref">Choose</label>-->
+<!--            <select class="custom-select my-2 mr-sm-2" id="inlineFormCustomSelectPref">-->
+<!--                <option value="1">Normal Order 2 h aprx</option>-->
+<!--                <option value="2">Express Order 45 min aprx</option>-->
+<!--            </select>-->
+<!--        </form>-->
 
         <button type="submit" class="btn btn-primary">Order!</button>
     </form>

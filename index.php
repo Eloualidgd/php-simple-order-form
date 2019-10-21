@@ -79,13 +79,13 @@ if (!empty($_POST)) {
     $_SESSION['zipcode'] = $_POST["zipcode"];
 }
 
-setcookie("usr","$email" , time()+20);
+setcookie("usr","$email" , time()+30);
 echo $_COOKIE['usr'];
 
-setcookie("usr1", "$zipcode", time()+20);
+setcookie("usr1", "$zipcode", time()+30);
 echo $_COOKIE['usr1'];
 
-setcookie("usr2","$city", time()+20);
+setcookie("usr2","$city", time()+40);
 echo $_COOKIE['usr2'];
 
 
